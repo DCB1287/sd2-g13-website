@@ -1,6 +1,7 @@
 import * as React from 'react';
 import "./styles.css";
 import LiteYoutubeEmbed from "react-lite-youtube-embed";
+import ReactGoogleSlides from "react-google-slides";
 import { 
     Card,
     CardMedia,
@@ -27,6 +28,7 @@ function App() {
     <>
     <Container sx={{bgcolor: "white", paddingBottom: 10}}>
         <Divider />
+        
         <Grid container spacing={2}>
           <Grid item xs={12} textAlign='center'>
             <div style={{
@@ -35,7 +37,7 @@ function App() {
               justifyContent: 'center'
               
             }}>
-             <Typography variant='h1'>Autonomous Hydroponic Drip System</Typography>
+             <Typography variant='h2'>Autonomous Hydroponic Drip System</Typography>
             </div>
             <div style={{
               display: 'flex',
@@ -47,6 +49,9 @@ function App() {
           </Grid>
         </Grid>
         <Divider />
+        <Grid container spacing={0} justifyContent='center'>
+          <Typography variant='h4'>Demonstration Video</Typography>
+        </Grid>
         <Grid container spacing={0} justifyContent='center'>
           <Grid item xs={6}>
               <LiteYoutubeEmbed id='R1aW7OYngiU' />
@@ -179,9 +184,91 @@ function App() {
                     />
                   </ImageListItem>
                 ))}
-              </ImageList>
-            </Grid>
+            </ImageList>
           </Grid>
+        </Grid>
+        <Divider />
+        <Grid container spacing={0} justifyContent='center'>
+          <Typography variant='h4'>Critical Design Review Slides</Typography>
+        </Grid>
+        <Grid container spacing={0} justifyContent='center'>
+          <Grid item>
+          <ReactGoogleSlides
+            width={640}
+            height={480}
+            slidesLink="https://docs.google.com/presentation/d/15Pl4VFJCg_0LHbLFG9sLigHV356Dcctt_4ohLItGOog/edit#slide=id.gcf9ccdeff9_4_10"
+            position={1}
+            showControls
+          />
+          </Grid>
+        </Grid>
+        <Divider />
+        <Grid container spacing={0} justifyContent='center'>
+          <Typography variant='h4'>Final Design Review Slides</Typography>
+        </Grid>
+        <Grid container spacing={0} justifyContent='center'>
+          <Grid item>
+          <ReactGoogleSlides
+            width={640}
+            height={480}
+            slidesLink="https://docs.google.com/presentation/d/11Bsrrc9MzB1Gu6h4_EYVa-Q__xREGjoupdd0FoUhH5o/edit?usp=sharing"
+            position={1}
+            showControls
+          />
+          </Grid>
+        </Grid>
+        <Divider />
+        <Grid container spacing={0} justifyContent='center'>
+          <Typography variant='h4'>Committee Presentation Video</Typography>
+        </Grid>
+        <Grid container spacing={0} justifyContent='center'>
+          <Grid item xs={6}>
+              <LiteYoutubeEmbed id='aqZ0y8QjShU' />
+          </Grid>
+        </Grid>
+        <Divider />
+        <Grid container spacing={0} justifyContent='center'>
+          <Typography variant='h4'>Senior Design II Documentation</Typography>
+        </Grid>
+        <Grid container spacing={0} justifyContent='center'>
+          <Grid item xs={6}>
+          <iframe
+            src={"https://docs.google.com/document/d/1tykRpK7_RzMvvDByQDbApomM2IDAWgwZfNhTBURMBsA/edit?usp=sharing"}
+            title="file"
+            width="800"
+            height="600"
+          />
+          </Grid>
+        </Grid>
+        <Divider />
+        <Grid container spacing={0} justifyContent='center'>
+          <Typography variant='h4'>Senior Design I Documentation</Typography>
+        </Grid>
+        <Grid container spacing={0} justifyContent='center'>
+          <Grid item xs={6}>
+          <iframe
+            src={"https://docs.google.com/document/d/1tykRpK7_RzMvvDByQDbApomM2IDAWgwZfNhTBURMBsA/edit?usp=sharing"}
+            title="file"
+            width="800"
+            height="600"
+          />
+          </Grid>
+        </Grid>
+        <Divider />
+        <Grid container spacing={0} justifyContent='center'>
+          <Typography variant='h4'>Initial Block Diagrams</Typography>
+        </Grid>
+        <Grid container spacing={0} justifyContent='center'>
+          <Grid item xs={6}>
+          <iframe
+            src={"https://docs.google.com/document/d/1tykRpK7_RzMvvDByQDbApomM2IDAWgwZfNhTBURMBsA/edit?usp=sharing"}
+            title="file"
+            width="800"
+            height="600"
+          />
+          </Grid>
+        </Grid>
+        <Divider />
       </Container>
     </>
   );
