@@ -57,6 +57,9 @@ function App() {
               <LiteYoutubeEmbed id='R1aW7OYngiU' />
           </Grid>
         </Grid>
+        <div className="downloadlink">
+        <a className = "downloadlink" href="https://drive.google.com/uc?id=1HzD6To7MQheOq3Gge3IbTkJ-SNL4Qshw&export=download">Download Demonstration</a>
+        </div>
         
         <Divider />
         <Container>
@@ -226,6 +229,9 @@ function App() {
               <LiteYoutubeEmbed id='aqZ0y8QjShU' />
           </Grid>
         </Grid>
+        <div className="downloadlink">
+        <a className = "downloadlink" href="https://drive.google.com/uc?id=1Q4MYes3O7jH6NUIRdZsS2RS2EtcyMm6p&export=download">Download Presentation</a>
+        </div>
         <Divider />
         <Grid container spacing={0} justifyContent='center'>
           <Typography variant='h4'>Senior Design II Documentation</Typography>

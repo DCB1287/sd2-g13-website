@@ -92,3 +92,9 @@
     opacity: 0;
     pointer-events: none;
 }
+
+/* Styles for download links */
+.downloadlink {
+    text-align: center;
+    margin: auto;
+}
