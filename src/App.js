@@ -247,7 +247,7 @@ function App() {
         <Grid container spacing={0} justifyContent='center'>
           <Grid item xs={6}>
           <iframe
-            src={"https://docs.google.com/document/d/1tykRpK7_RzMvvDByQDbApomM2IDAWgwZfNhTBURMBsA/edit?usp=sharing"}
+            src={"/documents/SD1 Final Report.pdf"}
             title="file"
             width="800"
             height="600"
@@ -256,12 +256,26 @@ function App() {
         </Grid>
         <Divider />
         <Grid container spacing={0} justifyContent='center'>
-          <Typography variant='h4'>Initial Block Diagrams</Typography>
+          <Typography variant='h4'>8 Page Conference Paper</Typography>
         </Grid>
         <Grid container spacing={0} justifyContent='center'>
           <Grid item xs={6}>
           <iframe
-            src={"https://docs.google.com/document/d/1tykRpK7_RzMvvDByQDbApomM2IDAWgwZfNhTBURMBsA/edit?usp=sharing"}
+            src={"/documents/SDCP.pdf"}
+            title="file"
+            width="800"
+            height="600"
+          />
+          </Grid>
+        </Grid>
+        <Divider />
+        <Grid container spacing={0} justifyContent='center'>
+          <Typography variant='h4'>10 Page Divide and Conquer Documentation</Typography>
+        </Grid>
+        <Grid container spacing={0} justifyContent='center'>
+          <Grid item xs={6}>
+          <iframe
+            src={"/documents/10 Page Divide and Conquer.pdf"}
             title="file"
             width="800"
             height="600"
