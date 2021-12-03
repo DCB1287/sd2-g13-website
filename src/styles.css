@@ -98,3 +98,9 @@
     text-align: center;
     margin: auto;
 }
+
+.documentdisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

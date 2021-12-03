@@ -145,6 +145,19 @@ function App() {
           </Grid>
         </Grid>
         <Container>
+        <Grid item>
+          <Typography variant='h4'>Project Summary</Typography>
+            <p>The objective of this project is to create a 
+              microcontroller and client-oriented mobile application 
+              for the purposes of monitoring and maintaining a hydroponic drip system. 
+              Sensor information on system water-level and pH will be used to alert 
+              the client and administer pH adjustment fluids appropriately. 
+              The mobile application will be linked to the microcontroller so that 
+              system can be controlled and monitored remotely over Wi-Fi connection. 
+              Our group chose this project as a method to integrate software design and 
+              computer engineering for the purposes of improving small-space hydroponics 
+              in an increasingly remote society.</p>
+          </Grid>
           <Typography variant='h4'>Problem to Tackle</Typography>
           <ul>
             <li>People have less agricultural space to grow their own food</li>
@@ -168,6 +181,7 @@ function App() {
             <li>Real-time data shown through the mobile application and LCD</li>
           </ul>
           <Divider />
+          
           
         </Container>
         <Grid container spacing={0} justifyContent='center'>
@@ -237,13 +251,14 @@ function App() {
           <Typography variant='h4'>Senior Design II Documentation</Typography>
         </Grid>
         <Grid container spacing={0} justifyContent='center'>
-          <Grid item xs={6}>
+          <Grid item xs={8}>
+          <div className="documentdisplay">
           <iframe
-            src={"https://docs.google.com/document/d/1tykRpK7_RzMvvDByQDbApomM2IDAWgwZfNhTBURMBsA/edit?usp=sharing"}
+            src={"/documents/SD2 Final Report.pdf"}
             title="file"
             width="800"
-            height="600"
-          />
+            height="900"
+          /></div>
           </Grid>
         </Grid>
         <Divider />
@@ -251,13 +266,14 @@ function App() {
           <Typography variant='h4'>Senior Design I Documentation</Typography>
         </Grid>
         <Grid container spacing={0} justifyContent='center'>
-          <Grid item xs={6}>
+          <Grid item xs={8}>
+          <div className="displaydocument">
           <iframe
             src={"/documents/SD1 Final Report.pdf"}
             title="file"
             width="800"
-            height="600"
-          />
+            height="900"
+          /></div>
           </Grid>
         </Grid>
         <Divider />
@@ -265,13 +281,14 @@ function App() {
           <Typography variant='h4'>8 Page Conference Paper</Typography>
         </Grid>
         <Grid container spacing={0} justifyContent='center'>
-          <Grid item xs={6}>
+          <Grid item xs={8}>
+          <div className="displaydocument">
           <iframe
             src={"/documents/SDCP.pdf"}
             title="file"
             width="800"
-            height="600"
-          />
+            height="900"
+          /></div>
           </Grid>
         </Grid>
         <Divider />
@@ -279,13 +296,14 @@ function App() {
           <Typography variant='h4'>10 Page Divide and Conquer Documentation</Typography>
         </Grid>
         <Grid container spacing={0} justifyContent='center'>
-          <Grid item xs={6}>
+          <Grid item xs={8}>
+          <div className="displaydocument">
           <iframe
             src={"/documents/10 Page Divide and Conquer.pdf"}
             title="file"
             width="800"
-            height="600"
-          />
+            height="900"
+          /></div>
           </Grid>
         </Grid>
         <Divider />
