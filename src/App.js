@@ -224,7 +224,7 @@ function App() {
           </Grid>
         </Grid>
         <div className="downloadlink">
-        <a className = "downloadlink" href="https://drive.google.com/uc?id=1v2yr2al4sq9TfSg27R-Ymvy8WYYGwOUR&export=download">Download Presentation</a>
+        <a className = "downloadlink" href="https://drive.google.com/uc?id=1v2yr2al4sq9TfSg27R-Ymvy8WYYGwOUR&export=download">Download Critical Design Review Slides</a>
         </div>
         <Divider />
         <Grid container spacing={0} justifyContent='center'>
@@ -242,7 +242,7 @@ function App() {
           </Grid>
         </Grid>
         <div className="downloadlink">
-        <a className = "downloadlink" href="https://drive.google.com/uc?id=1_W2DwL1Au_9fqui8MWR5xzxwlpxJ6_Kt&export=download">Download Presentation</a>
+        <a className = "downloadlink" href="https://drive.google.com/uc?id=1_W2DwL1Au_9fqui8MWR5xzxwlpxJ6_Kt&export=download">Download Final Presentation Slides</a>
         </div>
         <Divider />
         <Grid container spacing={0} justifyContent='center'>
