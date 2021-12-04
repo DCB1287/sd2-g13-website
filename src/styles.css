@@ -97,6 +97,9 @@
 .downloadlink {
     text-align: center;
     margin: auto;
+    padding: 5px 15px;
+    text-decoration:underline;
+    width: 40%;
 }
 
 .documentdisplay {
