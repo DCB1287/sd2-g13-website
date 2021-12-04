@@ -223,6 +223,9 @@ function App() {
           />
           </Grid>
         </Grid>
+        <div className="downloadlink">
+        <a className = "downloadlink" href="https://drive.google.com/uc?id=1v2yr2al4sq9TfSg27R-Ymvy8WYYGwOUR&export=download">Download Presentation</a>
+        </div>
         <Divider />
         <Grid container spacing={0} justifyContent='center'>
           <Typography variant='h4'>Final Design Review Slides</Typography>
@@ -238,6 +241,9 @@ function App() {
           />
           </Grid>
         </Grid>
+        <div className="downloadlink">
+        <a className = "downloadlink" href="https://drive.google.com/uc?id=1_W2DwL1Au_9fqui8MWR5xzxwlpxJ6_Kt&export=download">Download Presentation</a>
+        </div>
         <Divider />
         <Grid container spacing={0} justifyContent='center'>
           <Typography variant='h4'>Committee Presentation Video</Typography>
