@@ -65,10 +65,11 @@ function App() {
         <Container>
         <Grid container direction='row' spacing={0}>
           <Grid item xs={3}>
-            <Card sx={{ maxWidth: "52%" }}>
+            <Card sx={{width: "12vw" }}>
               <CardMedia
+                className="selfie"
                 component="img"
-                height="40%"
+                height="300"
                 image="/images/jacob.png"
                 alt="Jacob Reichle"
               />
@@ -83,12 +84,13 @@ function App() {
             </Card>
           </Grid>
           <Grid item xs={3}>
-            <Card sx={{ maxWidth: "70%" }}>
+            <Card sx={{width: "14vw"}}>
               <CardMedia
                 component="img"
-                height="40%"
+                height="300"
                 image="/images/max.png"
                 alt="Maximillian Gomer"
+                className="selfie"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -104,9 +106,10 @@ function App() {
             <Card sx={{ maxWidth: "76%" }}>
               <CardMedia
                 component="img"
-                height="40%"
+                height="300"
                 image="/images/david.png"
                 alt="David Babcock"
+                className="selfie"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -122,9 +125,10 @@ function App() {
             <Card sx={{ maxWidth: "85%" }}>
               <CardMedia
                 component="img"
-                height="40%"
+                height="300"
                 image="/images/marco.png"
                 alt="Marco Bogani"
+                className="selfie"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -184,7 +188,7 @@ function App() {
           
           
         </Container>
-        <Grid container spacing={0} justifyContent='center'>
+        {/* <Grid container spacing={0} justifyContent='center'>
           <Grid item>
             <ImageList
                 sx={{ width: 750, height: 1000}}
@@ -203,7 +207,7 @@ function App() {
                 ))}
             </ImageList>
           </Grid>
-        </Grid>
+        </Grid> */}
         <Divider />
         <Grid container spacing={0} justifyContent='center'>
           <Typography variant='h4'>Critical Design Review Slides</Typography>
