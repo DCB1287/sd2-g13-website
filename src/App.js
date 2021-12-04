@@ -26,7 +26,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 function App() {
   return (
     <>
-    <Container sx={{bgcolor: "white", paddingBottom: 10}}>
+    <Container sx={{bgcolor: "#e5f1e1", paddingBottom: 10}}>
         <Divider />
         
         <Grid container spacing={2}>
